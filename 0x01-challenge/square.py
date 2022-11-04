@@ -9,6 +9,7 @@ class square():
         """ Initializer for square class """
         for key, value in kwargs.items():
             setattr(self, key, value)
+            break
 
     def area_of_my_square(self):
         """ Area of the square """
