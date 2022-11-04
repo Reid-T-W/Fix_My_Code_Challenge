@@ -10,7 +10,7 @@ app.register_blueprint(app_views)
 
 @app.route('/api/v1/status')
 def index():
-    return make_response('', 200);
+    return make_response("Success", 200);
 
 @app.errorhandler(404)
 def not_found(error):
